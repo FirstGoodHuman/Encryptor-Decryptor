@@ -10,6 +10,8 @@ Requirements:
 1) A computer with CPU.
 2) Installed Python.
 3) Happy Life.
+
+*It works only in Windows!*
 -----------------------------------------------------------------------------------
 
 U can use it super easly...
