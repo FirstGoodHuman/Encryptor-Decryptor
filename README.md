@@ -15,12 +15,11 @@ U can use it super easly...
 
 3)  Its easy to undrestand, BTW...
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/420943da-f5c1-429e-8bbf-d694b89d34c3)
-
-
 * If its the first time that u use this little programm, u should press key "1" (as this massage said, for the first time!)
 * Or, if u wanna creat difference key to encrypt new files...
 * When u press "1", this will creat a new file named "key.key" in your Desktop location (C:/Users/"Your username"/Desktop/key.key)
+
+![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/420943da-f5c1-429e-8bbf-d694b89d34c3)
 
 4)  To Encrypt files, press key "2"
 When u press "2", u see this one:
