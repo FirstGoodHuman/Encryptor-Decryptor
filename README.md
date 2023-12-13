@@ -10,13 +10,8 @@ U can use it super easly...
 
 2)  Then, u see this massage:
 
-"""
-Do you want to :
-<Generate a new KEY>     [1]    (For The First Time..)
-<ENCRYPT a File>         [2]
-<DECRYPT a File>         [3]
-<EXIT>                   [X]
-"""
+![Screenshot 2023-12-13 231540](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/3536242f-cb8c-4f81-9a8d-f5e956eaaee9)
+
 
 3)  Its easy to undrestand, BTW...
 * If its the first time that u use this little programm, u should press key "1" (as this massage said, for the first time!)
