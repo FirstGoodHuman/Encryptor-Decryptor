@@ -3,6 +3,14 @@ This little programm can "encrypt" and "dycrypt" files. (I mean files that encry
 It could be useful :)
 
 
+Requirements:
+
+1) A computer with CPU.
+2) Installed Python.
+3) Happy Life.
+
+
+
 
 U can use it super easly...
 
