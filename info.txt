@@ -1,0 +1,2 @@
+~~ This program requires internet.
+~~ This program can encrypt and dicrypt files.
