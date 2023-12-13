@@ -1,16 +1,16 @@
 Hallo,
 This little programm can "encrypt" and "dycrypt" files. (I mean files that encrypted with this programm first!)
+File formats like (.jpg - .txt - .png and ...)
+Also u can use a folder path to Encrypt/Decrypt files in that folder!
 It could be useful :)
 
-
+-----------------------------------------------------------------------------------
 Requirements:
 
 1) A computer with CPU.
 2) Installed Python.
 3) Happy Life.
-
-
-
+-----------------------------------------------------------------------------------
 
 U can use it super easly...
 
@@ -56,5 +56,6 @@ It means paste the target path to Decrypt.
 6)  To exit, press key "X"
 When u press "X", u see noting :)
 
-
+-----------------------------------------------------------------------------------
 *** be careful : To decrypt files, u need the file named "key.key" in your desktop! ***
+-----------------------------------------------------------------------------------
