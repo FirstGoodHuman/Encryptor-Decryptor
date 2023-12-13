@@ -6,7 +6,7 @@ It could be useful :)
 
 U can use it super easly...
 
-1)  First when u run it, it start and download/update some library... (Need internet!)
+1)  First when u run it, it start and download/update some libraries... (Need internet!)
 
 2)  Then, u see this massage:
 
