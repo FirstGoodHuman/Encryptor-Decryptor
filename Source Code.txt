@@ -39,8 +39,8 @@ def CODE():
     q_1 = input(Fore.YELLOW + """
 Do you want to :
 <Generate a new KEY> [1]    (For The First Time...)
-<ENCRYPT a File>     [2]
-<DECRYPT a File>     [3]
+<Encrypt a File>     [2]
+<Decrypt a File>     [3]
 >> """)
     Username = os.getlogin()
     
@@ -89,7 +89,7 @@ Do you want to remove it or use it? ([R]emove , [U]se):
 
     def DECRYPT_STEP():
         try:
-            Target_Address = input(Fore.YELLOW + "Enter The Target Location For \'Dncrypt\' -> ")
+            Target_Address = input(Fore.YELLOW + "Enter The Target Location For \'Decrypt\' -> ")
             def decrypt_codes (Target_Address):       
                 with open("C:/Users/" + Username + "/Desktop/key.key" , "rb") as Key_File:
                     Key_File = Key_File.read()
