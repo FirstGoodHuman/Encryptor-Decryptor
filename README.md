@@ -1,7 +1,7 @@
 Hallo,
-This little programm can "encrypt" and "dycrypt" files. (I mean files that encrypted with this programm first!)
+This little programm can "Encrypt" and "Decrypt" files. (I mean files that encrypted with this programm first!)
 File formats like (.jpg - .txt - .png and ...)
-Also u can use a folder path to Encrypt/Decrypt files in that folder!
+Also u can use a folder path to Encrypt / Decrypt files in that folder!
 It could be useful :)
 
 -----------------------------------------------------------------------------------
