@@ -20,7 +20,8 @@ U can use it super easly...
 
 2)  Then, u see this massage:
 
-![Screenshot 2023-12-13 231540](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/3536242f-cb8c-4f81-9a8d-f5e956eaaee9)
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/2f4a1731-8456-47fb-9997-ea8a9b6f724f)
+
 
 
 3)  Its easy to undrestand, BTW...
@@ -29,34 +30,38 @@ U can use it super easly...
 * Or, if u wanna creat difference key to encrypt new files...
 * When u press "1", this will creat a new file named "key.key" in your Desktop location (C:/Users/"Your username"/Desktop/key.key)
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/420943da-f5c1-429e-8bbf-d694b89d34c3)
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/b08f3da5-98f6-4ea4-b302-f33e39190844)
+
+
 
 4)  To Encrypt files, press key "2"
 When u press "2", u see this one:
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/c756f19b-8114-4816-8e81-001b54a955db)
+
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/d946e79b-128e-4d50-a047-ac34073f9c01)
+
 
 
 It means paste the target path to Encrypt.
 (If it succeeds, will show this massage:
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/b61ee2bc-84d9-4d18-943c-301fa6573078)
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/741c1661-f7d0-4c26-9bed-595c19acd1f8)
+
 
 
 5)  To Decrypt files, press key "3"
 When u press "3", u see this one:
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/c0753866-c62e-48c3-80af-9928d57d906c)
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/0528c26c-3339-4847-b493-289e7d389a8f)
+
 
 
 It means paste the target path to Decrypt.
 (If it succeeds, will show this massage:
 
-![Screenshot 2023-12-13 231908](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/26e11baa-2caa-41af-af33-57846b64649d)
+![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/4debfb7d-46b5-4cc2-80e0-a7ad3ae95b93)
 
 
-6)  To exit, press key "X"
-When u press "X", u see noting :)
 
 -----------------------------------------------------------------------------------
 *** be careful : To decrypt files, u need the file named "key.key" in your desktop! ***
