@@ -1,0 +1,3 @@
+~~ This program requires internet.
+~~ Run it as Administrator.
+~~ This program can encrypt and dicrypt files.
