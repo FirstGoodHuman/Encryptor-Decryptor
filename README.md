@@ -43,7 +43,7 @@ When u press "2", u see this one:
 
 
 It means paste the target path to Encrypt.
-(If it succeeds, will show this massage:
+(If it succeeds, will show this massage):
 
 ![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/741c1661-f7d0-4c26-9bed-595c19acd1f8)
 
@@ -57,7 +57,7 @@ When u press "3", u see this one:
 
 
 It means paste the target path to Decrypt.
-(If it succeeds, will show this massage:
+(If it succeeds, will show this massage):
 
 ![111111111111111111](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/4debfb7d-46b5-4cc2-80e0-a7ad3ae95b93)
 
