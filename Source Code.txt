@@ -1,4 +1,5 @@
 import os
+
 try:
     os.system("py -m pip install --upgrade")
     os.system("py -m pip install cryptography")
@@ -7,10 +8,9 @@ try:
     os.system("py -m pip install --upgrade colorama")
     from cryptography.fernet import Fernet
     from colorama import Fore
-    print(Fore.BLUE + """
+    print(Fore.MAGENTA + """
 ┌┌ If this is your first time entering the program, \'generate a new key\' to get started ┘┘
 """)
-    print(Fore.BLACK)
 except:
     try:
         os.system("pip install --upgrade")
@@ -23,24 +23,43 @@ except:
         print(Fore.MAGENTA + """
 ┌┌ If this is your first time entering the program, \'generate a new key\' to get started ┘┘
 """)
-        print(Fore.BLACK)
     except:
-        print("ERROR!")
+        print(Fore.RED + "ERROR!")
         exit()
-
+        
+try:
+    os.system("cls")
+except:
+    try:
+        os.system("clear")
+    except:
+        pass
+##################################################
 def CODE():
-    
     q_1 = input(Fore.YELLOW + """
 Do you want to :
-<Generate a new KEY> [1]    (For The First Time..)
+<Generate a new KEY> [1]    (For The First Time...)
 <ENCRYPT a File>     [2]
 <DECRYPT a File>     [3]
-<EXIT>               [\'X\']
 >> """)
-    print(Fore.BLACK)
     Username = os.getlogin()
     
+
     def KEY_GENERATOR_STEP ():
+        try:
+            Template_Key_File = open("C:/Users/" + Username + "/Desktop/key.key")
+            Template_Key_File.close()
+            Remove_Use_Key = input(Fore.YELLOW + """
+You have a file named \"key.key\" in this path ==> \"C:/Users/"{}"/Desktop/key.key\"
+Do you want to remove it or use it? ([R]emove , [U]se):
+>> """.format(Username))
+            if (Remove_Use_Key == "R" or Remove_Use_Key == "r"):
+                os.system("del /s /a \"C:\\Users\\mrami\\Desktop\\key.key\" ".format(Username))
+                print(Fore.RED + "key.key was deleted!")
+            if (Remove_Use_Key == "U" or Remove_Use_Key == "u"):
+                pass
+        except FileNotFoundError:
+            pass
         try:
             key = Fernet.generate_key()
             with open("C:/Users/" + Username + "/Desktop/key.key" , "wb") as Key_File:
@@ -49,11 +68,11 @@ Do you want to :
         except:
             print(Fore.RED + "Key file alreday genrated!")
             print(Fore.BLUE + "If you wanna generate new key, exit and start \'Run as administrator\'...")
-            print(Fore.BLACK)
             CODE()
+
+
     def ENCRYPT_STEP():
         Target_Address = input(Fore.YELLOW + "Enter The Target Location For \'Encrypt\' -> ")
-        print(Fore.BLACK)
         def encrypt_codes (Target_Address):
             with open("C:/Users/" + Username + "/Desktop/key.key" , "rb") as Key_File:
                 Key_File = Key_File.read()
@@ -67,10 +86,10 @@ Do you want to :
             for File in Files:
                 encrypt_codes(os.path.join(Root , File))
 
+
     def DECRYPT_STEP():
         try:
             Target_Address = input(Fore.YELLOW + "Enter The Target Location For \'Dncrypt\' -> ")
-            print(Fore.BLACK)
             def decrypt_codes (Target_Address):       
                 with open("C:/Users/" + Username + "/Desktop/key.key" , "rb") as Key_File:
                     Key_File = Key_File.read()
@@ -88,27 +107,24 @@ Do you want to :
             pass
         except:
             print(Fore.RED + "Error in decrypt process!")
-            print(Fore.BLACK)
             exit()
-        
-    if (q_1 == "1" or q_1 == "2" or q_1 == "3" or q_1 == "X" or q_1 == "x"):
+
+
+    if (q_1 == "1" or q_1 == "2" or q_1 == "3"):
         if (q_1 == "1"):
             KEY_GENERATOR_STEP()
             print(Fore.GREEN + "Key was generated.")
-            print(Fore.BLACK)
+            CODE()
         elif(q_1 == "2"):
             ENCRYPT_STEP()
             print(Fore.GREEN + "File/Folder was encrypted.")
-            print(Fore.BLACK)
+            CODE()
         elif(q_1 == "3"):
             DECRYPT_STEP()
             print(Fore.GREEN + "File/Folder was decrypted.")
-            print(Fore.BLACK)
-        elif(q_1 == "x" or q_1 == "X"):
-            exit()
+            CODE()
     else:
-        print(Fore.RED + "PLS enter a valid option! (1 or 2 or 3 or \'X\')")
-        print(Fore.BLACK)
+        print(Fore.RED + "PLS enter a valid option! (1 or 2 or 3)")
         CODE()
     
 
