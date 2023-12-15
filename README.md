@@ -14,7 +14,7 @@ Requirements:
 *It works only in Windows!*
 -----------------------------------------------------------------------------------
 
-U can use it super easly...
+U can use it super easily...
 
 1)  First "Run it as Administrator", when u run it, it start and download/update some libraries... (Need internet!)
 
