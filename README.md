@@ -18,7 +18,7 @@ U can use it super easily...
 
 1)  First "Run it as Administrator", when u run it, it start and download/update some libraries... (Need internet!)
 
-2)  Then, u see this massage:
+2)  Then, u see this message:
 
 ![1](https://github.com/FirstGoodHuman/Encryptor-Decryptor/assets/153766571/b07037da-18e1-4a27-967c-a9fca908f48c)
 
